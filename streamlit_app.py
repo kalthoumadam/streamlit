@@ -4,7 +4,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 # -- Create three columns
-col1, col2, col3 = st.columns([5, 5, 20])
+col1, col2, col3 = st.columns([20, 25, 20])
 # -- Put the image in the middle column
 # - Commented out here so that the file will run without having the image downloaded
 # with col2:
